@@ -1,8 +1,8 @@
 public class Player {
-    private int x;
-    private int y;
+    protected int x;
+    protected int y;
 
-    private Rectangle[] rectangles;
+    protected Rectangle[] rectangles;
 
     public void addTo(GameArena gameArena){
         for (Rectangle rectangle : rectangles) {
